@@ -1,31 +1,43 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
-  "private": true,
+  "name": "book-search",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "server.js",
   "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "array-flatten": "^1.1.1",
+    "abbrev": "^1.1.1",
+    "async-each": "^1.0.1",
+    "binary-extensions": "^1.13.0",
+    "bluebird": "^3.5.1",
+    "ansi-align": "^2.0.0",
+    "camelcase": "^5.0.0",
+    "capture-stack-trace": "^1.0.1",
+    "cli-boxes": "^1.0.0",
+    "ci-info": "^1.6.0",
+    "component-emitter": "^1.2.1",
+    "cookie": "^0.3.1",
+    "content-disposition": "^0.5.2",
+    "core-js": "^2.6.5",
+    "create-error-class": "^3.0.2",
+    "date-fns": "^1.30.1",
+    "crypto-random-string": "^1.0.0",
+    "deep-extend": "^0.6.0",
+    "bson": "^1.1.0",
+    "duplexer3": "^0.1.4"
   },
+  "devDependencies": {},
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cglerupcoding/react-book-search.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cglerupcoding/react-book-search/issues"
+  },
+  "homepage": "https://github.com/cglerupcoding/react-book-search#readme"
 }
